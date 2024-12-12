@@ -1,6 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import toast, { Toaster } from "react-hot-toast";
 
 export default function Login() {
@@ -105,9 +105,9 @@ export default function Login() {
               </button>
               <p>
                 Not registered?{" "}
-                <a href="/signup" className="text-blue-500 underline">
+                <Link to="/signup" className="text-blue-500 underline">
                   SignUp
-                </a>
+                </Link>
               </p>
             </div>
           </form>
