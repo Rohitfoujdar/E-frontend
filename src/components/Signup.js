@@ -22,7 +22,7 @@ export default function Signup() {
   
     try {
       // Define the API endpoint
-      const API = "https://e-backend-dv8d.onrender.com/book";
+      const API = "https://e-backend-dv8d.onrender.com/signup";
   
       // Perform the fetch request with method, headers, and body
       const response = await fetch(API, {
