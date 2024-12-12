@@ -12,7 +12,7 @@ export default function Course() {
   
   const fetchData = async() => {
     try{
-      const Url = "http://localhost:4001/book"
+      const Url = "https://e-backend-dv8d.onrender.com/book"
       const response= await fetch(Url)
       const data = await response.json()
       setBook(data);
