@@ -105,7 +105,8 @@ export default function Login() {
               </button>
               <p>
                 Not registered?{" "}
-                <Link to="/signup" className="text-blue-500 underline">
+                <Link to="/signup" className="text-blue-500 underline" onClick={()=>document.getElementById("my_modal_3").close()  }
+                >
                   SignUp
                 </Link>
               </p>
